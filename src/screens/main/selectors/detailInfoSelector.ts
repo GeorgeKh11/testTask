@@ -1,5 +1,5 @@
 import { createSelector } from 'reselect';
-import { AppState } from '../../store/store';
+import { AppState } from '../../../store/store';
 
 const eventList = (state: AppState) => state.events.events;
 const selectedEventId = (state: AppState) => state.events.selectedEvent;

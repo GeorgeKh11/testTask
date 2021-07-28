@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 import { Container } from '../../components/Container';
 import { AppState } from '../../store/store';
-import { detailInfoSelector } from '../selectors/detailInfoSelector';
+import { detailInfoSelector } from './selectors/detailInfoSelector';
 
 const DetailScreen = () => {
   const detailInfo = useSelector((state: AppState) => detailInfoSelector(state));
